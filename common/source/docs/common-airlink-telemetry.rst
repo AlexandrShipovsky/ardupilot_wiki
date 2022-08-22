@@ -1,34 +1,70 @@
 .. _common-airlink-telemetry:
-
+[copywiki destination="plane,copter,rover,blimp"]
 
 ClearSky Airlink 4G LTE Telemetry
-==========================
+=================================
 
-.. figure:: https://xbstation.com/images/XBStation4GBVLOSLTEKit.png
-   :target:  https://air-link.space/
-
-
+.. image:: ../../../images/clearsky-airlink/airlink.png
 
 Overview
---------
+========
 
-`XBStation <https://xbstation.com>`__ Kit is a plug and play hardware to transmites drone data and videos to ground stations or monitoring centers for BVLOS remote operations based on real-time 4G LTE connectivity.
+`ClearSky Airlink <https://air-link.space>`__ very small 4G/LTE telemetry module. It allows you to control a drone or an airplane via the Internet from anywhere on earth.
 
 Features
---------
-* **Reliable connection, cloud connectivity, reconnect automatically when the network is lost**.
-* HD video streaming.
-* Telemetry command and control.
-* Automatic APN detection.
-* Video/telemetry Streaming sharing to the viewer's browser.
-* Gimbal control from pilot/consumers.
-* AES-256 data encryption.
-* Multiple vehicles control.
-* Cellular RSSI (Received signal strength indication), system monitoring.
-* Adapt to all carriers and bands.
-* H264 video encoding.
+========
+* 1. Telemetry command and control.
+* 2. Send data to `Flightradar24 <https://www.flightradar24.com>`__ and `Open Glider Network <https://www.glidernet.org/>`__ (ADS-B).
+* 3. Multiple vehicles control (test).
+* 4. Recieve RTK correction data for GNSS from Internet (test).
+
+Technical Specifications
+========================
+
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Frequency Bands             | LTE-TDD: B38/B40; LTE-FDD: B1/B3/B5/B7/B8/B20; GSM/GPRS/EDGE 900/1800 MHz;     |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Airspeed                    | Transmit 5 MBit/s; Recieve 10 MBit/s                                           |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | UART speed                  | 9600/57600/115200 Baud/s                                                       |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Serial interface            | 3.3V CMOS TTL (5V tolerance)                                                   |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | SIM holder                  | NanoSIM                                                                        |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Power supply                | 4.7..28 V / no more 5 Watts                                                    |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Antenna connector           | SMA                                                                            |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Operating temperature       |  -40℃ ~ +85℃                                                                   |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Size                        | 8x35x52 mm (without antenna)                                                   |
+   +-----------------------------+--------------------------------------------------------------------------------+
+   | Weight                      | 13g (without antenna)                                                          |
+   +-----------------------------+--------------------------------------------------------------------------------+
+
+Pinouts
+=======
+.. image:: ../../../images/clearsky-airlink/airlink-pinout.png
+
+* **PWR** - power indication
+* **HOST** - AIRLINK network connection indicator (always on if everything is fine)
+* **RX/TX** - transmit/receive indicators
+* **NET** - cellular network registration indicator (blinking if everything is fine)
+
+Videos
+======
+* Please use the subtitle translator to get English. 
+* Overview of the module:
+
+.. youtube:: XszxSj__-Xg
+   :width: 100%
+
+* How to connect your drone with Flightradar24/OGN:
+
+.. youtube:: hgrt-Rcn-UQ
+   :width: 100%
 
 Where to buy
-------------
-
--   `XBStation store <https://store.xbstation.com/>`_
+============
+-   `Airlink store <https://rushop.air-link.space/>`_
