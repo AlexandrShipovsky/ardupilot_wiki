@@ -598,6 +598,8 @@ Details on the Partners Program and how to join can be found on the :doc:`Partne
             :width: 250px
             :align: center
             :target:  https://visionaerial.com/
+      
+      - ..
 
 
 [copywiki destination="copter,plane,rover,planner,planner2,antennatracker,dev,ardupilot,mavproxy"]
