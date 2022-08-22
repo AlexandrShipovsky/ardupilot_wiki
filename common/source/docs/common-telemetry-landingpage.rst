@@ -55,6 +55,7 @@ Long Range
     SPL Satellite Telemetry <https://discuss.ardupilot.org/t/stretching-comm-links-from-indoors-to-the-globe/45896>
     UAVCast 3G/4G Cellular <common-uavcast-telemetry>
     XBStation 4G LTE Link <common-xbstation-telemetry>
+    ClearSky Airlink 4G LTE Telemetry <common-airlink-telemetry>
 
 Applications and Info
 =====================
