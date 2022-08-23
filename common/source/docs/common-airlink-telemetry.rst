@@ -1,6 +1,6 @@
 .. _common-airlink-telemetry:
 [copywiki destination="plane,copter,rover,blimp"]
-
+=================================
 ClearSky Airlink 4G LTE Telemetry
 =================================
 
@@ -13,10 +13,10 @@ Overview
 
 Features
 ========
-* 1. Telemetry command and control.
-* 2. Send data to `Flightradar24 <https://www.flightradar24.com>`__ and `Open Glider Network <https://www.glidernet.org/>`__ (ADS-B).
-* 3. Multiple vehicles control (test).
-* 4. Recieve RTK correction data for GNSS from Internet (test).
+- Telemetry command and control.
+- Send data to `Flightradar24 <https://www.flightradar24.com>`__ and `Open Glider Network <https://www.glidernet.org/>`__ (ADS-B).
+- Multiple vehicles control (in development).
+- Recieve RTK correction data for GNSS from Internet (in development).
 
 Technical Specifications
 ========================

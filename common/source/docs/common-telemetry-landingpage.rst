@@ -43,6 +43,7 @@ Long Range
     :maxdepth: 1
 
     Blicube RLINK P900 <common-blicube-rlink>
+    ClearSky Airlink 4G LTE Telemetry <common-airlink-telemetry>
     CRSF Telemetry <common-crsf-telemetry>
     CUAV P8 Radio <common-cuav-p8>
     CUAV P9 Radio <common-cuav-p9>
@@ -55,7 +56,6 @@ Long Range
     SPL Satellite Telemetry <https://discuss.ardupilot.org/t/stretching-comm-links-from-indoors-to-the-globe/45896>
     UAVCast 3G/4G Cellular <common-uavcast-telemetry>
     XBStation 4G LTE Link <common-xbstation-telemetry>
-    ClearSky Airlink 4G LTE Telemetry <common-airlink-telemetry>
 
 Applications and Info
 =====================
